@@ -11,7 +11,7 @@ def index():
 def aboutpage():
     return render_template('about.html')
 
-df = pd.read_csv('')
+df = pd.read_csv('https://raw.githubusercontent.com/zf81/azure_flask_deployment/main/data/FastFoodNutrition.csv')
 @app.route('/data')
 def data(data=df):
     data = data.head(15)
