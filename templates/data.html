@@ -1,0 +1,48 @@
+{% extends "base.html" %} 
+
+{% block content %}
+
+    <section>
+        <h2 class="text-xl mb-2">These are the <strong>nutritional components</strong> of different fast food items:</h2>
+        <table class="table-auto">
+            <thead>
+                <tr>
+                    <th class="px-4 py-2">Company</th>
+                    <th class="px-4 py-2">Item</th>
+                    <th class="px-4 py-2">Calories</th>
+                    <th class="px-4 py-2">Calories from fat</th>
+                    <th class="px-4 py-2">Total Fat(g)</th>
+                    <th class="px-4 py-2">Saturated Fat(g)</th>
+                    <th class="px-4 py-2">Trans Fat(g)</th>
+                    <th class="px-4 py-2">Cholesterol(mg)</th>
+                    <th class="px-4 py-2">Sodium (mg)</th>
+                    <th class="px-4 py-2">Carbs (g)</th>
+                    <th class="px-4 py-2">Fiber (g)</th>
+                    <th class="px-4 py-2">Sugars (g)</th>
+                    <th class="px-4 py-2">Protein (g)</th>
+                    <th class="px-4 py-2">Weight Watchers Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for data in data.values %}
+                <tr>
+                    <td class="border px-4 py-2">{{ data[0] }}</td>
+                    <td class="border px-4 py-2">{{ data[1] }}</td>
+                    <td class="border px-4 py-2">{{ data[2] }}</td>
+                    <td class="border px-4 py-2">{{ data[3] }}</td>
+                    <td class="border px-4 py-2">{{ data[4] }}</td>
+                    <td class="border px-4 py-2">{{ data[5] }}</td>
+                    <td class="border px-4 py-2">{{ data[6] }}</td>
+                    <td class="border px-4 py-2">{{ data[7] }}</td>
+                    <td class="border px-4 py-2">{{ data[8] }}</td>
+                    <td class="border px-4 py-2">{{ data[9] }}</td>
+                    <td class="border px-4 py-2">{{ data[10] }}</td>
+                    <td class="border px-4 py-2">{{ data[11] }}</td>
+                    <td class="border px-4 py-2">{{ data[12] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+
+{% endblock %}
