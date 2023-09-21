@@ -6,7 +6,7 @@ Azure Deployment URL: [fizzah-504-flaskappnew.azurewebsites.net](https://fizzah-
 
 ## How to set up your Flask application:
 
-1. I created a new repository on Github called ```azure_flask_deployment``` and made sure the option "**Add a README.md file**" was checked on. I then opened up Google Shell environement and in the terminal I cloned this repository using the command ```git clone```. 
+**1.** I created a new repository on Github called ```azure_flask_deployment``` and made sure the option "**Add a README.md file**" was checked on. I then opened up Google Shell environement and in the terminal I cloned this repository using the command ```git clone```. 
 
 **2.** In the Google Shell start page, I clicked **"Open Folder..."** and this displayed my cloned repo. 
 
