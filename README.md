@@ -10,7 +10,7 @@ Azure Deployment URL: [fizzah-504-flaskappnew.azurewebsites.net](https://fizzah-
 
 **2.** In the Google Shell start page, I clicked **"Open Folder..."** and this displayed my cloned repo. 
 
-**3.** Created a new file and named it ```requirements.txt```. In the ```requirements.txt``` file, I typed in the following relevant requirements ```pandas``` and ```flask```, each on a separate line. 
+**3.** Created a new file and named it ```requirements.txt```. In the ```requirements.txt``` file, I typed in the following relevant requirements ```pandas``` ```flask```  and ```faker```, each on a separate line. 
 
 **4.** Created a new folder called **data** and uploaded my dataset. 
 
