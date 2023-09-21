@@ -52,11 +52,11 @@ if __name__ == '__main__':
 
 
 # Deploying the Application on Azure
-**1.** In the Shell environment terminal at the bottom of the page, we need to install [AZURE CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt) using the following command ```curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash```. 
+**1.** In the Shell environment terminal at the bottom of the page, I needed to install [AZURE CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt) using the following command ```curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash```. 
 
 **2.** To ensure that it has properly installed, type in the command ```az```. 
 
-**3.** Type the command ```az login --use-device-code```. Wait for a link and a code to appear in the terminal. Copy the code and click on the link to log in to your Azure account. This will help connect your Google Shell with your Azure account. Make sure that after entering the code and validating your account, you wait for a couple of seconds before navigating back to the Shell terminal.
+**3.** Type the command ```az login --use-device-code```. Wait for a link and a code to appear in the terminal. Copy the code and click on the link to log in to your Azure account. This will allow you to connect your Google Shell with your Azure account. Make sure that after entering the code and validating your account, you wait for a couple of seconds before navigating back to the Shell terminal.
 
 **4.** Log in to your [Azure account](https://azure.microsoft.com/en-us/). Navigate to **Resource Group** and create a new Resource Group with a unique name. Then press **Review and Create**.
 
