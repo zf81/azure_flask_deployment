@@ -2,7 +2,7 @@
 
 Here is a step-by-step guide of how I set up a Flask application and deployed it using Azure.
 
-Azure Deployment URL: fizzah-504-flaskappnew.azurewebsites.net
+Azure Deployment URL: [fizzah-504-flaskappnew.azurewebsites.net](https://fizzah-504-flaskappnew.azurewebsites.net/)
 
 ## How to set up your Flask application:
 
